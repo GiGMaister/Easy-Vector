@@ -1,10 +1,9 @@
 # Easy-Vector
 
 A lightweight generic dynamic array library written in pure C, inspired by C++ std::vector.
-
 Easy Vector provides dynamic memory management, automatic resizing, insertion, deletion, and generic element storage using void*.
 
-# Features
+## Features
 
 - Generic dynamic array implementation
 - Automatic capacity growth
@@ -26,7 +25,7 @@ The purpose of this project is to provide a simple and educational implementatio
 
 This library was mainly created for learning low-level programming and data structure implementation in C.
 
-# Files
+## Files
 
 - vector_easy.c
 - vector_easy.h
@@ -35,42 +34,22 @@ This library was mainly created for learning low-level programming and data stru
 - README.md
 - LICENSE
 
-# How To Compile
+### How To Compile
 
-## Example using GCC:
+ **Example using GCC:**
 
 gcc vector_easy.c example.c -o example
 
-## Run:
+### Run:
 
 ./example
 
-## Basic Example
-#include "vector_easy.h"
-#include <stdio.h>
+## Documentation
 
-int main(void)
-{
-    vector* v = vec_init(sizeof(int));
+**For a complete list of available functions and commands, see:**
 
-    int x = 10;
-    vec_push_back(v, &x);
+### COMMANDS.txt
 
-    int* value = vec_get_ptr(v, 0);
-
-    printf("%d\n", *value);
-
-    vec_free(v);
-
-    return 0;
-}
-
-# Documentation
-
-For a complete list of available functions and commands, see:
-
-## COMMANDS.txt
-
-# License
+## License
 
 This project is licensed under the MIT License.
