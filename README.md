@@ -33,7 +33,7 @@ This library was mainly created for learning low-level programming and data stru
 - vector_easy.c
 - vector_easy.h
 - example.c
-- COMMANDS.txt
+- COMMANDS.md
 - README.md
 - LICENSE
 
@@ -53,7 +53,7 @@ gcc vector_easy.c example.c -o example
 
 **For a complete list of available functions and commands, see:**
 
-### COMMANDS.txt
+### COMMANDS.md
 
 
 ## License
