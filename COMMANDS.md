@@ -10,10 +10,7 @@
 - **void* value** : *Pointer to the value that will be inserted or copied into the vector*
 
 **Function** : *Appends an element to the end of the vector, growing capacity if needed*
-<br><br>
-<br><br>
-
-
+---
 ### bool vec_pop_back(vector* ptr);
 - **vector* ptr** : *Pointer to the vector structure* 
 
