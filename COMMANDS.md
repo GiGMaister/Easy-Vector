@@ -5,7 +5,6 @@
 
 ### Function : *Allocates and initializes a new empty vector with an initial capacity of 2*
 ---
-<br><br>
 ### bool vec_push_back(vector* ptr, void* value);
 - **vector* ptr** : *Pointer to the vector structure*
 - **void* value** : *Pointer to the value that will be inserted or copied into the vector*
