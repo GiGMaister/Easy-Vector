@@ -4,7 +4,6 @@
 - **size_t elem_size** : *Size in bytes of a single vector element*
 
 ### Function : *Allocates and initializes a new empty vector with an initial capacity of 2*
-<br><br>
 ---
 <br><br>
 ### bool vec_push_back(vector* ptr, void* value);
