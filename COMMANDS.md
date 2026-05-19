@@ -4,7 +4,6 @@
 - **size_t elem_size** : *Size in bytes of a single vector element*
 
 **Function** : *Allocates and initializes a new empty vector with an initial capacity of 2*
-
 <br><br>
 
 
@@ -13,12 +12,14 @@
 - **void* value** : *Pointer to the value that will be inserted or copied into the vector*
 
 **Function** : *Appends an element to the end of the vector, growing capacity if needed*
+<br><br>
 
 
 ### bool vec_pop_back(vector* ptr);
 - **vector* ptr** : *Pointer to the vector structure* 
 
 **Function** : *Removes the last element by decreasing size (without reducing capacity)*
+<br><br>
 
 
 
@@ -27,6 +28,7 @@
 - **vector* ptr** : *Pointer to the vector structure*
 
 **Function** : *Frees all memory allocated by the vector and the structure itself*
+<br><br>
 
 
 
