@@ -17,7 +17,7 @@ Easy Vector provides dynamic memory management, automatic resizing, insertion, d
 - Written in standard C
 - Project Goal
 
-The purpose of this project is to provide a simple and educational implementation of a generic vector container in C while exploring:
+The purpose of this project is to provide a simple implementation of a generic vector container in C while exploring:
 
 - Manual memory management
 - Pointer arithmetic
