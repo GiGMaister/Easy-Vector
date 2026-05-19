@@ -19,7 +19,7 @@ vector* vec_init(size_t elem_size);
 void    vec_free(vector* ptr);
 
 bool    vec_push_back(vector* ptr, void *value);
-void    vec_pop_back(vector* ptr);
+bool    vec_pop_back(vector* ptr);
 
 void*   vec_get_ptr(vector* ptr, size_t index);
 bool    vec_get_var(vector* ptr, size_t index, void* var);

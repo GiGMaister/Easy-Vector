@@ -81,13 +81,14 @@ bool vec_push_back(vector* ptr, void *value)
 }
 
 //Removes the last element by decreasing size (without reducing capacity)
-void vec_pop_back(vector* ptr) {
+bool vec_pop_back(vector* ptr) {
     if(ptr == NULL) {
-        return;
+        return false;
     }
     if(ptr->size > 0) {
         ptr->size--;
     }
+    return true;
 }
 
 //Returns the current number of elements in the vector
